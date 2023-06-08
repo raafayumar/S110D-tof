@@ -33,23 +33,20 @@ roscore
 ```bash
 lsusb
 ```
-you should see the camera listed.
+You should see the camera listed.
+
 4. Launch the ToF camera driver and nodes using the following command:
-
+```bash
 roslaunch cubeeye_scube depth_camera.launch
-
+```
 5. Open another terminal, source the ROS setup, and run RViz:
 ```bash
-source devel/setup.bash
 rosrun rviz rviz
 ```
 6. In RViz, add the relevant topics and visualize the camera data.
 
 Make sure to adjust the commands and instructions based on your specific ROS workspace and setup.
 
-## Contributing
-
-Contributions to this repository are welcome. If you'd like to contribute, please follow the guidelines outlined in the CONTRIBUTING.md file.
 
 ## License
 

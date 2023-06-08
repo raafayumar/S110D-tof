@@ -1,4 +1,4 @@
-# S110D-tof
+# S100D and S110D ToF Cameras - ROS Package
 
 This repository contains the ROS package for S100D and S110D Time-of-Flight (ToF) cameras.
 

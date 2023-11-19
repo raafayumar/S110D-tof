@@ -1,6 +1,6 @@
 # S100D and S110D ToF Cameras - ROS Package
 
-This repository contains the ROS package for S100D and S110D Time-of-Flight (ToF) cameras.
+This repository contains the ROS package for S100D and S110D Time-of-Flight (ToF) cameras by Meere.
 
 ## Installation
 
@@ -18,11 +18,11 @@ This repository contains the ROS package for S100D and S110D Time-of-Flight (ToF
 catkin_make
 catkin_make clean
 ```
-Once the commands complete successfully, the ROS package for S100D or S110D should be installed.
+Once the commands are completed successfully, the ROS package for S100D or S110D should be installed.
 
 ## Usage
 
-Follow the steps below to use the ROS package with the ToF cameras:
+Follow the steps below to use the ROS package with the ToF camera:
 
 1. Start the ros master by running the following command in a terminal:
 ```bash

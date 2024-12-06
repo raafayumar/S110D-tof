@@ -12,8 +12,9 @@ This repository contains the ROS package for S100D and S110D Time-of-Flight (ToF
 ### Steps
 
 1. Install ROS Noetic and Ubuntu 20.04.
-2. Clone this repository into the 'src' folder of your ROS workspace.
-3. Open a terminal in your ROS workspace folder and execute the following commands:
+2. Download the driver files from [this link](https://drive.google.com/file/d/1qhJkAUU_bpuT48fUx8X9OnJCEKcXi-vD/view) and move them into the 'src' folder of your ROS workspace.
+3. Clone this repository into the 'src' folder of your ROS workspace.
+4. Open a terminal in your ROS workspace folder and execute the following commands:
 ```bash
 catkin_make
 catkin_make clean
